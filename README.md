@@ -14,6 +14,10 @@ iwr -useb https://tool.windowspowertool.workers.dev | iex
 ```
 iwr -useb https://christitus.com/win | iex
 ```
+Talon
+```
+https://debloat.win/
+```
 ------------------
 ### **Virus Removal**
 
