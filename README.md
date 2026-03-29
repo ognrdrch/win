@@ -1,5 +1,5 @@
 # Personal Windows Stash
-### **Windows Activation with [MAS](https://github.com/massgravel/Microsoft-Activation-Scripts/releases/tag/1.6)** <sub> including MSOffice until [2019](other/Setup64.exe)<sub/>
+### **Windows Activation with [MAS](https://github.com/massgravel/Microsoft-Activation-Scripts/releases/tag/1.6)** <sub> including MSOffice <sub/>
 
 ```
 iwr -useb https://massgrave.dev/get | iex
