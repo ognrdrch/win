@@ -2,7 +2,7 @@
 ### **Windows Activation with [MAS](https://github.com/massgravel/Microsoft-Activation-Scripts/releases/tag/1.6)** <sub> including MSOffice <sub/>
 
 ```
-iwr -useb https://massgrave.dev/get | iex
+irm https://get.activated.win | iex
 ```
 -----------------
 ### **System Optimization**
