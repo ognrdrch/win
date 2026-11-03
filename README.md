@@ -8,11 +8,11 @@ iwr -useb https://massgrave.dev/get | iex
 ### **System Optimization**
  [WindowsPowertools](https://github.com/windows-powertool/Powertool)
 ```
-iwr -useb https://tool.windowspowertool.workers.dev | iex
+iwr -useb tool.windowpowertool.workers.dev | iex
 ```
  [Windows 10 Debloater](https://github.com/ChrisTitusTech/winutil)
 ```
-iwr -useb https://christitus.com/win | iex
+irm https://christitus.com/win | iex
 ```
 Talon
 ```
@@ -28,6 +28,10 @@ https://debloat.win/
 > hit **Shift+F10** during setup to open command prompt and enter the code below
 ```
 oobe\bypassnro
+```
+or 
+```
+start ms-cxh:localonly
 ```
 ------
 ### Windows System File Checker 
