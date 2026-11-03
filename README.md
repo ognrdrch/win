@@ -18,6 +18,12 @@ Talon
 ```
 https://debloat.win/
 ```
+### Create autounattend.xml (perform unattended installations of both Windows 10 and Windows 11)
+
+### [schneegans.de](https://schneegans.de/windows/unattend-generator/)
+
+
+
 ------------------
 ### **Virus Removal**
 
@@ -34,11 +40,7 @@ or
 start ms-cxh:localonly
 ```
 ------
-### Create autounattend.xml (perform unattended installations of both Windows 10 and Windows 11)
 
-[schneegans.de](https://schneegans.de/windows/unattend-generator/)
-
-------
 
 ### Windows System File Checker 
 > open PowerShell as Administrator and run the code below
