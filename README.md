@@ -14,10 +14,7 @@ iwr -useb tool.windowpowertool.workers.dev | iex
 ```
 irm https://christitus.com/win | iex
 ```
-Talon
-```
-https://debloat.win/
-```
+
 ### Create autounattend.xml (perform unattended installations of both Windows 10 and Windows 11)
 
 ### [schneegans.de](https://schneegans.de/windows/unattend-generator/)
