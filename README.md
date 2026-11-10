@@ -19,10 +19,12 @@ irm https://christitus.com/win | iex
 
 ### [schneegans.de](https://schneegans.de/windows/unattend-generator/)
 
+
+---------------
+
+### Windows Diagnostics, Repair & Troubleshooting
 <details>
-<summary><strong>Windows Diagnostics, Repair & Troubleshooting</strong></summary>
-
-
+<summary><strong>open</strong></summary>
 ## Windows System Repair
 
 **System File Checker - Repair corrupted Windows files · Administrator**
@@ -66,11 +68,9 @@ cipher /w:C:\
 ```
 
 </details>
------
 
-<details>
+----------
 
-------------------
 ### **Virus Removal**
 
 ### [Tron Script](https://github.com/bmrf/tron)
@@ -85,6 +85,8 @@ or
 ```
 start ms-cxh:localonly
 ```
+------------------
+
 ------
 
 
