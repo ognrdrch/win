@@ -25,8 +25,7 @@ irm https://christitus.com/win | iex
 ### Windows Diagnostics, Repair & Troubleshooting
 <details>
 <summary><strong>open</strong></summary>
-## Windows System Repair
-
+ 
 **System File Checker - Repair corrupted Windows files · Administrator**
 ```cmd
 sfc /scannow
