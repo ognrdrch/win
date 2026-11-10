@@ -84,12 +84,12 @@ or
 ```
 start ms-cxh:localonly
 ```
-------------------
+
 
 ------
 
 
-
+<details>
 <summary>
 Package Managers
 </summary>
