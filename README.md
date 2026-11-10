@@ -44,6 +44,10 @@ start ms-cxh:localonly
 ```
 sfc /scannow
 ```
+### full Diagnostic chain
+```
+DISM /Online /Cleanup-Image /CheckHealth && DISM /Online /Cleanup-Image /ScanHealth && DISM /Online /Cleanup-Image /RestoreHealth && sfc /scannow
+```
 -----
 
 <details>
