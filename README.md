@@ -39,15 +39,53 @@ start ms-cxh:localonly
 ------
 
 
-### Windows System File Checker 
-> open PowerShell as Administrator and run the code below
-```
+<details>
+<summary><strong>Windows Diagnostics, Repair & Troubleshooting</strong></summary>
+
+
+## Windows System Repair
+
+**System File Checker - Repair corrupted Windows files · Administrator**
+```cmd
 sfc /scannow
 ```
-### full Diagnostic chain
+**DISM ScanHealth - Thorough corruption scan · Administrator**
+
+```cmd
+DISM /Online /Cleanup-Image /ScanHealth
 ```
-DISM /Online /Cleanup-Image /CheckHealth && DISM /Online /Cleanup-Image /ScanHealth && DISM /Online /Cleanup-Image /RestoreHealth && sfc /scannow
+
+**DISM RestoreHealth - Repair Windows component store · Administrator**
+
+```cmd
+DISM /Online /Cleanup-Image /RestoreHealth
 ```
+
+
+**CHKDSK - Scan filesystem for errors · Administrator**
+
+```cmd
+chkdsk C: /scan
+```
+
+**CHKDSK - Repair filesystem errors · Administrator**
+
+```cmd
+chkdsk C: /f
+```
+**Windows Memory Diagnostic - Check RAM for problems**
+
+```cmd
+mdsched.exe
+```
+
+**Overwrite deleted-data free space on C:**
+
+```cmd
+cipher /w:C:\
+```
+
+</details>
 -----
 
 <details>
