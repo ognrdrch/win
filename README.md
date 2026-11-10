@@ -19,26 +19,6 @@ irm https://christitus.com/win | iex
 
 ### [schneegans.de](https://schneegans.de/windows/unattend-generator/)
 
-
-
-------------------
-### **Virus Removal**
-
-### [Tron Script](https://github.com/bmrf/tron)
-
------------
-### **Bypass Microsoft sign it at setup (OOBE)**
-> hit **Shift+F10** during setup to open command prompt and enter the code below
-```
-oobe\bypassnro
-```
-or 
-```
-start ms-cxh:localonly
-```
-------
-
-
 <details>
 <summary><strong>Windows Diagnostics, Repair & Troubleshooting</strong></summary>
 
@@ -89,6 +69,26 @@ cipher /w:C:\
 -----
 
 <details>
+
+------------------
+### **Virus Removal**
+
+### [Tron Script](https://github.com/bmrf/tron)
+
+-----------
+### **Bypass Microsoft sign it at setup (OOBE)**
+> hit **Shift+F10** during setup to open command prompt and enter the code below
+```
+oobe\bypassnro
+```
+or 
+```
+start ms-cxh:localonly
+```
+------
+
+
+
 <summary>
 Package Managers
 </summary>
